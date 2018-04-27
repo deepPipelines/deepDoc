@@ -1,0 +1,11 @@
+term	description	pipelines	required	source
+filename	filename	all	yes	"sra 1.5 run"
+filepath	"local path to file"	all	yes	team
+filetype	"filetype like fastq"	all	yes	"sra 1.5 run"
+library_construction_protocol	"specific protocol such as tWGBS, EpiGnome"	all	yes	"sra 1.5 exp"
+library_strategy	"general strategy such as Bisulfite-seq, ChIP-seq"	all	yes	"sra 1.5 exp"
+library_layout	"paired or single"	all	yes	"sra 1.5 exp"
+nominal_length	"length of insert size for paired layout"	all	no	"sra 1.5 exp"
+nominal_sdev	"standard deviation of insert size for paired layout"	all	no	"sra 1.5 exp"
+read_type	"forward, reverse etc"	all	yes	"sra 1.5 commons"
+sample_label	"mnemonic name for sample"	all	yes	team
