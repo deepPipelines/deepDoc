@@ -8,4 +8,4 @@ library_layout	"paired or single"	all	yes	"sra 1.5 exp"
 nominal_length	"length of insert size for paired layout"	all	no	"sra 1.5 exp"
 nominal_sdev	"standard deviation of insert size for paired layout"	all	no	"sra 1.5 exp"
 read_type	"forward, reverse etc"	all	yes	"sra 1.5 commons"
-sample_label	"mnemonic name for sample"	all	yes	team
+sample_name	"mnemonic name for sample"	all	yes	"sra 1.5 sample"
