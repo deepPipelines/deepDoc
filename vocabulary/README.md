@@ -10,4 +10,4 @@ in the sample annotation of pipeline configuration file. These entries will
 be derived as part of the pipeline itself (example: fragment length will 
 be estimated by the pipeline).
 
-Link to metadata schema files: ftp://ftp.sra.ebi.ac.uk/meta/xsd/sra_1_5/
+Link to metadata schema files: [EBI FTP: SRA schema files](http://ftp.sra.ebi.ac.uk/meta/xsd/sra_1_5/)
